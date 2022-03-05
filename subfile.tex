@@ -1,0 +1,45 @@
+% DO NOT EDIT
+% Any changes made here will not be reflected in your actual submission
+\documentclass[journal]{IEEEtran}
+
+% *** CITATION PACKAGES ***
+\usepackage[backend=biber,sorting=none]{biblatex}
+\addbibresource{./bibliography.bib}
+
+% *** GRAPHICS RELATED PACKAGES ***
+\usepackage[pdftex]{graphicx}
+\DeclareGraphicsExtensions{.pdf,.jpg,.jpeg,.png}
+\usepackage{float} 
+
+% *** MATH PACKAGES ***
+\usepackage{amsmath}
+\interdisplaylinepenalty=2500
+
+% *** SPECIALIZED LIST PACKAGES ***
+\usepackage{algorithmic}
+
+% *** ALIGNMENT PACKAGES ***
+\usepackage{array}
+\usepackage{flushend}
+
+% *** SUBFIGURE PACKAGES ***
+\ifCLASSOPTIONcompsoc
+ \usepackage[caption=false,font=normalsize,labelfont=sf,textfont=sf]{subfig}
+\else
+ \usepackage[caption=false,font=footnotesize]{subfig}
+\fi
+
+% *** FONT PACKAGES ***
+\usepackage[utf8]{inputenc}
+
+% *** MULTI-FILE PACKAGES ***
+\usepackage{subfiles}
+
+% DO NOT EDIT
+% Any changes made here will not be reflected in your actual submission
+\begin{document}
+
+    % Include the tex from the submission
+    \subfile{./submission}
+    
+\end{document}
